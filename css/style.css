@@ -4,30 +4,6 @@ body {
   margin: 0 auto;
 }
 
-i {
-  font-size: 2em;
-  color: purple;
-  transform: scale(2,2);
-}
-
-
-
-.animate {
-  animation-name: bat;
-  animation-duration: 5s;
-  animation-direction: normal;
-  animation-iteration-count: 1;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
-}
-
-
-@keyframes bat {
-  0% {transform: translate(0,0)}
-  100% {transform: translate(2000px, 0);}
-}
-
-
 
 .about {
   width: 100%;
@@ -38,7 +14,7 @@ i {
   /*box-shadow: 5px 10px black; */
   background-color: rgba(255, 0, 0, 0.5);
   box-sizing: border-box;
-  background-image: url(../img/wright.jpg);
+  background-image: url(../img/goode.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -79,52 +55,38 @@ a:active {
   color: cyan;
 }
 
-.tigercover {
+.visualcover {
   float: left;
   width: 40%;
   margin-right: 5%;
 }
 
-.tigercover > img {
+.visualcover > img {
   width: 100%;
 }
 
-.sparkcover {
+.usercover {
   float: right;
   width: 40%;
   margin-left: 5%;
 }
 
 
-.sparkcover > img {
+.usercover > img {
   width: 100%;
 }
 
-.whalecover {
+.packagingcover {
   float: left;
   width: 40%;
   margin-right: 5%;
 }
 
-.whalecover > img {
+.packagingcover > img {
   width: 100%;
 }
 
-.audiocover {
-  float: right;
-  width: 40%;
-  margin-left: 5%;
-}
 
-.videocover {
-  float: left;
-  width: 40%;
-  margin-right: 5%;
-}
-
-.videocover > video, iframe {
-  width: 100%;
-}
 
 .tablecover {
   float: right;
@@ -190,10 +152,10 @@ form {
 }
 
 .newsletter {
-  background-color: cyan;
+  background-color: black;
   height: 25vh;
-  background-image: url(../img/newsbkgd.png);
-  background-size: cover;
+  background-image: url(../img/IMG_1917.png);
+  background-size: auto;
   background-repeat: no-repeat;
   flex-direction: row;
 
@@ -228,6 +190,12 @@ form {
 }
 
 
+footer{
+  text-align:center;
+  background-color: #000;
+  color: #fff;
+  padding: 20px
+  }
 
 
 @media all and (min-width: 320px) and (max-width: 780px) {
